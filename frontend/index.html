@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery store Billing System</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div class="firstline">
+        <h2 class = "heading"> Grocery Store Billing System </h2> 
+        <button id="mode" ><i class="fa-solid fa-moon"></i></button>
+    </div>
+
+    <!--Product Inventory Management-->
+    <div class="card mt3">
+        <div class="card-header">Product and Inventory Management</div>
+        <div class="card-body">
+            <form id="productForm">
+                <div class="mb-3">
+                    <input type="text" id="productName" class="form-control" placeholder="Product Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="productPrice" class="form-control" placeholder="Price" required>
+                </div>
+                <div class="mb-3">
+                    <input type="number" id="productStock" class="form-control" placeholder="Stock Quantity" required>
+                </div>
+                <button type="submit" class="btn btn-success btn-sm">Add Product</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
