@@ -1,0 +1,25 @@
+img{
+    margin-top: 10px;
+}
+
+.navbar .btn{
+    background-color: rgb(212, 92, 92);
+    color:white;
+}
+
+.navbar .btn:hover{
+    background-color: rgb(227, 22, 22);
+    color:white;
+}
+
+.navbar{
+    background-color: #4f772d;
+}
+
+body{
+    background-color: #ecf39e;
+}
+
+.d-flex .text{
+    color: #ecf39e;
+}
